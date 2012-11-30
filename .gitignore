@@ -1,0 +1,24 @@
+# git ignore file
+#/CEGUI-0.7.7/
+#/ogreSDK/
+CEGUI-0.7.7/projects/premake/Backup/
+CEGUI-0.7.7/projects/premake/Backup1/
+CEGUI-0.7.7/projects/premake/CEGUI.sdf
+CEGUI-0.7.7/projects/premake/CEGUI.sln.old
+CEGUI-0.7.7/projects/premake/CEGUI.suo
+CEGUI-0.7.7/projects/premake/UpgradeLog.XML
+CEGUI-0.7.7/projects/Xcode
+CEGUI-0.7.7/bin/
+CEGUI-0.7.7/Samples/
+CEGUI-0.7.7/projects/premake/_UpgradeReport_Files/
+CEGUI-0.7.7/projects/premake/BaseSystem/obj/
+CEGUI-0.7.7/projects/premake/ImageCodecModules/CoronaImageCodec/obj/
+CEGUI-0.7.7/projects/premake/ImageCodecModules/DevILImageCodec/obj/
+CEGUI-0.7.7/projects/premake/ImageCodecModules/FreeImageImageCodec/obj/
+CEGUI-0.7.7/projects/premake/ImageCodecModules/SILLYImageCodec/obj/
+CEGUI-0.7.7/projects/premake/ImageCodecModules/STBImageCodec/obj/
+CEGUI-0.7.7/projects/premake/ImageCodecModules/TGAImageCodec/obj/
+CEGUI-0.7.7/projects/premake/RendererModules/Ogre/obj/
+CEGUI-0.7.7/projects/premake/ScriptingModules/LuaScriptModule/obj/
+CEGUI-0.7.7/projects/premake/WindowRendererSets/Falagard/obj/
+CEGUI-0.7.7/projects/premake/XMLParserModules/expatParser/obj/
