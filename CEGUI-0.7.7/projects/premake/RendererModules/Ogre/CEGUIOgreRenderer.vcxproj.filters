@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cegui">
+      <UniqueIdentifier>{fe34e6f8-66e9-4405-a9cf-83d450d800c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cegui\src">
+      <UniqueIdentifier>{11e78051-957e-434b-871c-af123a906346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cegui\src\RendererModules">
+      <UniqueIdentifier>{119cf48c-8c24-43a5-9a6d-c24ad7d46277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cegui\src\RendererModules\Ogre">
+      <UniqueIdentifier>{cad89f21-f383-4ae5-9635-4581f363f070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cegui\include">
+      <UniqueIdentifier>{f985accf-99ba-46dd-aba6-a85621fa4978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cegui\include\RendererModules">
+      <UniqueIdentifier>{e0c6f6ab-3925-4af3-ba42-8ae77ff3710a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cegui\include\RendererModules\Ogre">
+      <UniqueIdentifier>{3af0a88f-fb66-4a03-90ee-03955ccbbe41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\cegui\src\RendererModules\Ogre\CEGUIOgreGeometryBuffer.cpp">
+      <Filter>cegui\src\RendererModules\Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cegui\src\RendererModules\Ogre\CEGUIOgreImageCodec.cpp">
+      <Filter>cegui\src\RendererModules\Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cegui\src\RendererModules\Ogre\CEGUIOgreRenderer.cpp">
+      <Filter>cegui\src\RendererModules\Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cegui\src\RendererModules\Ogre\CEGUIOgreRenderTarget.cpp">
+      <Filter>cegui\src\RendererModules\Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cegui\src\RendererModules\Ogre\CEGUIOgreResourceProvider.cpp">
+      <Filter>cegui\src\RendererModules\Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cegui\src\RendererModules\Ogre\CEGUIOgreTexture.cpp">
+      <Filter>cegui\src\RendererModules\Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cegui\src\RendererModules\Ogre\CEGUIOgreTextureTarget.cpp">
+      <Filter>cegui\src\RendererModules\Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cegui\src\RendererModules\Ogre\CEGUIOgreWindowTarget.cpp">
+      <Filter>cegui\src\RendererModules\Ogre</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\cegui\include\RendererModules\Ogre\CEGUIOgreGeometryBuffer.h">
+      <Filter>cegui\include\RendererModules\Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cegui\include\RendererModules\Ogre\CEGUIOgreImageCodec.h">
+      <Filter>cegui\include\RendererModules\Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cegui\include\RendererModules\Ogre\CEGUIOgreRenderer.h">
+      <Filter>cegui\include\RendererModules\Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cegui\include\RendererModules\Ogre\CEGUIOgreRenderTarget.h">
+      <Filter>cegui\include\RendererModules\Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cegui\include\RendererModules\Ogre\CEGUIOgreResourceProvider.h">
+      <Filter>cegui\include\RendererModules\Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cegui\include\RendererModules\Ogre\CEGUIOgreTexture.h">
+      <Filter>cegui\include\RendererModules\Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cegui\include\RendererModules\Ogre\CEGUIOgreTextureTarget.h">
+      <Filter>cegui\include\RendererModules\Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cegui\include\RendererModules\Ogre\CEGUIOgreWindowTarget.h">
+      <Filter>cegui\include\RendererModules\Ogre</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

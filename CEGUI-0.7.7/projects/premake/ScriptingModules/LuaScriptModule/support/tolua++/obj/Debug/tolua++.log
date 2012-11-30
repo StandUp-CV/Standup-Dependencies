@@ -1,0 +1,22 @@
+﻿Build started 30.11.2012 18:05:28.
+     1>Project "C:\SDKs\CEGUI-0.7.7\projects\premake\ScriptingModules\LuaScriptModule\support\tolua++\tolua++.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj/Debug\tolua++.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\SDKs\CEGUI-0.7.7\projects\premake\ScriptingModules\LuaScriptModule\support\tolua++\../../../../../../bin\tolua++.dll) does not match the Linker's OutputFile property value (C:\SDKs\CEGUI-0.7.7\bin\tolua++_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(tolua++) does not match the Linker's OutputFile property value (tolua++_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "obj/Debug\tolua++.unsuccessfulbuild".
+         Touching "obj/Debug\tolua++.lastbuildstate".
+     1>Done Building Project "C:\SDKs\CEGUI-0.7.7\projects\premake\ScriptingModules\LuaScriptModule\support\tolua++\tolua++.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

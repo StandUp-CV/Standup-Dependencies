@@ -1,0 +1,60 @@
+﻿Build started 30.11.2012 18:24:14.
+     1>Project "C:\SDKs\CEGUI-0.7.7\projects\premake\WindowRendererSets\Falagard\CEGUIFalagardWRBase.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj/Release\CEGUIFalagardWRBase.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../cegui/include /I../../../../dependencies/include /I../../../../cegui/include/WindowRendererSets/Falagard/ /nologo /W3 /WX- /O2 /Oy /D _CRT_SECURE_NO_DEPRECATE /D HAVE_CONFIG_H /D FALAGARDWRBASE_EXPORTS /D CEGUIWRMODULE_EXPORTS /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj/Release\\" /Fd"obj/Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\cegui\src\WindowRendererSets\Falagard\FalEditbox.cpp
+         FalEditbox.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../bin\CEGUIFalagardWRBase.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../lib /LIBPATH:../../../../dependencies/lib/dynamic ../../../../lib/CEGUIBase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"obj/Release\CEGUIFalagardWRBase.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\SDKs\CEGUI-0.7.7\bin\CEGUIFalagardWRBase.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../../lib/CEGUIFalagardWRBase.lib" /MACHINE:X86 /DLL obj/Release\FalButton.obj
+         obj/Release\FalDefault.obj
+         obj/Release\FalEditbox.obj
+         obj/Release\FalEditboxProperties.obj
+         obj/Release\FalFrameWindow.obj
+         obj/Release\FalItemEntry.obj
+         obj/Release\FalItemListbox.obj
+         obj/Release\FalListbox.obj
+         obj/Release\FalListHeader.obj
+         obj/Release\FalListHeaderProperties.obj
+         obj/Release\FalListHeaderSegment.obj
+         obj/Release\FalMenubar.obj
+         obj/Release\FalMenuItem.obj
+         obj/Release\FalModule.obj
+         obj/Release\FalMultiColumnList.obj
+         obj/Release\FalMultiLineEditbox.obj
+         obj/Release\FalMultiLineEditboxProperties.obj
+         obj/Release\FalPopupMenu.obj
+         obj/Release\FalProgressBar.obj
+         obj/Release\FalProgressBarProperties.obj
+         obj/Release\FalScrollablePane.obj
+         obj/Release\FalScrollbar.obj
+         obj/Release\FalScrollbarProperties.obj
+         obj/Release\FalSlider.obj
+         obj/Release\FalSliderProperties.obj
+         obj/Release\FalStatic.obj
+         obj/Release\FalStaticImage.obj
+         obj/Release\FalStaticImageProperties.obj
+         obj/Release\FalStaticProperties.obj
+         obj/Release\FalStaticText.obj
+         obj/Release\FalStaticTextProperties.obj
+         obj/Release\FalSystemButton.obj
+         obj/Release\FalTabButton.obj
+         obj/Release\FalTabControl.obj
+         obj/Release\FalTabControlProperties.obj
+         obj/Release\FalTitlebar.obj
+         obj/Release\FalToggleButton.obj
+         obj/Release\FalTooltip.obj
+         obj/Release\FalTree.obj
+         "C:\SDKs\CEGUI-0.7.7\lib\CEGUIBase.lib"
+            Creating library ../../../../lib/CEGUIFalagardWRBase.lib and object ../../../../lib/CEGUIFalagardWRBase.exp
+         CEGUIFalagardWRBase.vcxproj -> C:\SDKs\CEGUI-0.7.7\projects\premake\WindowRendererSets\Falagard\../../../../bin\CEGUIFalagardWRBase.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../bin\CEGUIFalagardWRBase.dll;#2" /manifest obj/Release\CEGUIFalagardWRBase.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "obj/Release\CEGUIFalagardWRBase.unsuccessfulbuild".
+         Touching "obj/Release\CEGUIFalagardWRBase.lastbuildstate".
+     1>Done Building Project "C:\SDKs\CEGUI-0.7.7\projects\premake\WindowRendererSets\Falagard\CEGUIFalagardWRBase.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.33

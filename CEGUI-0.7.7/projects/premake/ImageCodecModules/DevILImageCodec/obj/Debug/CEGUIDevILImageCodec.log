@@ -1,0 +1,22 @@
+﻿Build started 30.11.2012 18:05:32.
+     1>Project "C:\SDKs\CEGUI-0.7.7\projects\premake\ImageCodecModules\DevILImageCodec\CEGUIDevILImageCodec.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj/Debug\CEGUIDevILImageCodec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\SDKs\CEGUI-0.7.7\projects\premake\ImageCodecModules\DevILImageCodec\../../../../bin\CEGUIDevILImageCodec.dll) does not match the Linker's OutputFile property value (C:\SDKs\CEGUI-0.7.7\bin\CEGUIDevILImageCodec_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(CEGUIDevILImageCodec) does not match the Linker's OutputFile property value (CEGUIDevILImageCodec_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "obj/Debug\CEGUIDevILImageCodec.unsuccessfulbuild".
+         Touching "obj/Debug\CEGUIDevILImageCodec.lastbuildstate".
+     1>Done Building Project "C:\SDKs\CEGUI-0.7.7\projects\premake\ImageCodecModules\DevILImageCodec\CEGUIDevILImageCodec.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19

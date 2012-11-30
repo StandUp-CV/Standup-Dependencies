@@ -1,0 +1,22 @@
+﻿Build started 30.11.2012 18:24:13.
+     1>Project "C:\SDKs\CEGUI-0.7.7\projects\premake\ImageCodecModules\TGAImageCodec\CEGUITGAImageCodec.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj/Release\CEGUITGAImageCodec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../bin\CEGUITGAImageCodec.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../lib /LIBPATH:../../../../dependencies/lib/dynamic ../../../../lib/CEGUIBase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"obj/Release\CEGUITGAImageCodec.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\SDKs\CEGUI-0.7.7\bin\CEGUITGAImageCodec.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../../lib/CEGUITGAImageCodec.lib" /MACHINE:X86 /DLL obj/Release\CEGUITGAImageCodec.obj
+         obj/Release\CEGUITGAImageCodecModule.obj
+         "C:\SDKs\CEGUI-0.7.7\lib\CEGUIBase.lib"
+            Creating library ../../../../lib/CEGUITGAImageCodec.lib and object ../../../../lib/CEGUITGAImageCodec.exp
+         CEGUITGAImageCodec.vcxproj -> C:\SDKs\CEGUI-0.7.7\projects\premake\ImageCodecModules\TGAImageCodec\../../../../bin\CEGUITGAImageCodec.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../bin\CEGUITGAImageCodec.dll;#2" /manifest obj/Release\CEGUITGAImageCodec.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "obj/Release\CEGUITGAImageCodec.unsuccessfulbuild".
+         Touching "obj/Release\CEGUITGAImageCodec.lastbuildstate".
+     1>Done Building Project "C:\SDKs\CEGUI-0.7.7\projects\premake\ImageCodecModules\TGAImageCodec\CEGUITGAImageCodec.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.53
