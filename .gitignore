@@ -22,3 +22,4 @@ CEGUI-0.7.7/projects/premake/RendererModules/Ogre/obj/
 CEGUI-0.7.7/projects/premake/ScriptingModules/LuaScriptModule/obj/
 CEGUI-0.7.7/projects/premake/WindowRendererSets/Falagard/obj/
 CEGUI-0.7.7/projects/premake/XMLParserModules/expatParser/obj/
+/ogreSDK/OgreSDK_vc10_v1-8-1/bin/debug/*.exe
