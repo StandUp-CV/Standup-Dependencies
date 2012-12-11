@@ -10,9 +10,9 @@ material Standup/Clock/Hours
 			//}
 			lighting on
 
-			ambient 0.3 0.3 0.3 1
-			diffuse 0.7 0.3 0.3 1
-			emissive 0.2 0.05 0.05 1
+			ambient 0.5 0.3 0.3 1
+			diffuse 0.8 0.2 0.2 1
+			emissive 0 0 0 1
 		}
 	}
 }
@@ -29,9 +29,9 @@ material Standup/Clock/Minutes
 			//}
 			lighting on
 
-			ambient 0.3 0.3 0.3 1
-			diffuse 0.3 0.3 0.7 1
-			emissive 0.05 0.05 0.2 1
+			ambient 0.3 0.3 0.5 1
+			diffuse 0.2 0.2 0.8 1
+			emissive 0 0 0 1
 			
 		} 
 	}
@@ -49,9 +49,176 @@ material Standup/Clock/Seconds
 			//}
 			lighting on
 
-			ambient 0.3 0.3 0.3 1
-			diffuse 0.3 0.7 0.3 1
-			emissive 0.05 0.2 0.05 1
+			ambient 0.3 0.5 0.3 1
+			diffuse 0.2 0.8 0.2 1
+			emissive 0 0 0 1
 		} 
+	}
+}
+
+material Standup/Clock/Cubemap_Trans
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				cubic_texture skybox.jpg combinedUVW
+				tex_address_mode clamp
+				env_map cubic_reflection
+				//colour_op_ex source1 src_manual src_current 1 0 0
+				alpha_op_ex source1 src_manual src_current 0.2
+			}
+			lighting on
+
+			ambient 0.0 0.0 0.0 1
+			diffuse 0.5 0.5 0.5 1
+			emissive 0 0 0 1
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}
+
+material Standup/Clock/Cubemap_Seconds
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				cubic_texture skybox.jpg combinedUVW
+				tex_address_mode clamp
+				env_map cubic_reflection
+				//colour_op_ex source1 src_manual src_current 1 0 0
+				//alpha_op_ex source1 src_manual src_current 0.5
+			}
+			lighting on
+
+			ambient 0.0 0.0 0.0 1
+			diffuse 0.5 0.5 0.5 1
+			emissive 0 0 0 1
+			//scene_blend alpha_blend
+			//depth_write off
+		}
+	}
+}
+
+material Standup/Clock/Cubemap_Minutes
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				cubic_texture skybox.jpg combinedUVW
+				tex_address_mode clamp
+				env_map cubic_reflection
+				//colour_op_ex source1 src_manual src_current 1 0 0
+				//alpha_op_ex source1 src_manual src_current 0.75
+			}
+			lighting on
+
+			ambient 0.0 0.0 0.0 1
+			diffuse 0.75 0.75 0.75 1
+			emissive 0 0 0 1
+			//scene_blend alpha_blend
+			//depth_write off
+		}
+	}
+}
+
+material Standup/Clock/Cubemap_Hours
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 0.0 0.0 0.0 1
+			diffuse 0.9 0.9 0.9 1
+			emissive 0 0 0 1
+			
+			texture_unit
+			{
+				cubic_texture skybox.jpg combinedUVW
+				tex_address_mode clamp
+				env_map cubic_reflection
+			}
+		}
+	}
+}
+
+material Standup/TimedSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture skybox.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+
+	// HDR technique (fake)
+	technique
+	{
+		scheme HDR
+
+		pass
+		{
+			lighting off
+			depth_write off
+
+			vertex_program_ref Ogre/BasicVertexPrograms/AmbientOneTextureUnified
+			{
+				param_named ambient float4 1 1 1 1
+			}
+			fragment_program_ref Examples/MorningSkyBoxHDRfp
+			{
+			}
+
+			texture_unit
+			{
+				cubic_texture morning.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material Standup/RustySteel
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				colour_op_ex modulate src_diffuse src_current
+				//alpha_op_ex source1 src_manual src_current 0.75
+			}
+			lighting on
+
+			ambient 0.5 0.5 0.5 1
+			specular 0.0 0.0 0.0 1
+			diffuse 1.0 1.0 1.0 1
+			emissive 0 0 0 1
+			scene_blend colour_blend
+			depth_write on
+		}
 	}
 }
