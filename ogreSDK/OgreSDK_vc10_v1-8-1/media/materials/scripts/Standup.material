@@ -1,3 +1,5 @@
+// Materials
+
 material Standup/Clock/Hours
 {
 	technique
@@ -10,9 +12,9 @@ material Standup/Clock/Hours
 			//}
 			lighting on
 
-			ambient 0.5 0.3 0.3 1
+			ambient 0.6 0.3 0.3 1
 			diffuse 0.8 0.2 0.2 1
-			emissive 0 0 0 1
+			emissive 0.3 0 0 1
 		}
 	}
 }
@@ -29,9 +31,10 @@ material Standup/Clock/Minutes
 			//}
 			lighting on
 
-			ambient 0.3 0.3 0.5 1
+			ambient 0.3 0.3 0.6 1
 			diffuse 0.2 0.2 0.8 1
-			emissive 0 0 0 1
+			specular 1 1 1 1
+			emissive 0 0 0.3 1
 			
 		} 
 	}
@@ -49,9 +52,10 @@ material Standup/Clock/Seconds
 			//}
 			lighting on
 
-			ambient 0.3 0.5 0.3 1
+			ambient 0.3 0.6 0.3 1
 			diffuse 0.2 0.8 0.2 1
-			emissive 0 0 0 1
+			specular 1 1 1 1
+			emissive 0 0.3 0 1
 		} 
 	}
 }
@@ -70,6 +74,7 @@ material Standup/Clock/Background
 
 			ambient 0.5 0.5 0.5 1
 			diffuse 0.4 0.4 0.4 1
+			specular 1 1 1 1
 			emissive 0 0 0 1
 		}
 	}
@@ -84,7 +89,7 @@ material Standup/Clock/Cubemap_Trans
 			
 			texture_unit
 			{
-				cubic_texture jajspace2.jpg combinedUVW
+				cubic_texture forest_winter.jpg combinedUVW
 				tex_address_mode clamp
 				env_map cubic_reflection
 				//colour_op_ex source1 src_manual src_current 1 0 0
@@ -111,7 +116,7 @@ material Standup/Clock/Cubemap_Seconds
 			
 			texture_unit
 			{
-				cubic_texture jajspace2.jpg combinedUVW
+				cubic_texture forest_winter.jpg combinedUVW
 				tex_address_mode clamp
 				env_map cubic_reflection
 				//colour_op_ex source1 src_manual src_current 1 0 0
@@ -138,7 +143,7 @@ material Standup/Clock/Cubemap_Minutes
 			
 			texture_unit
 			{
-				cubic_texture jajspace2.jpg combinedUVW
+				cubic_texture forest_winter.jpg combinedUVW
 				tex_address_mode clamp
 				env_map cubic_reflection
 				//colour_op_ex source1 src_manual src_current 1 0 0
@@ -153,6 +158,8 @@ material Standup/Clock/Cubemap_Minutes
 			//scene_blend alpha_blend
 			//depth_write off
 		}
+		
+		
 	}
 }
 
@@ -171,7 +178,7 @@ material Standup/Clock/Cubemap_Hours
 			
 			texture_unit
 			{
-				cubic_texture jajspace2.jpg combinedUVW
+				cubic_texture forest_winter.jpg combinedUVW
 				tex_address_mode clamp
 				env_map cubic_reflection
 			}
@@ -190,7 +197,7 @@ material Standup/TimedSkyBox
 
 			texture_unit
 			{
-				cubic_texture jajspace2.jpg separateUV
+				cubic_texture forest_winter.jpg separateUV
 				tex_address_mode clamp
 			}
 		}
@@ -216,7 +223,7 @@ material Standup/TimedSkyBox
 
 			texture_unit
 			{
-				cubic_texture jajspace2.jpg separateUV
+				cubic_texture forest_winter.jpg separateUV
 				tex_address_mode clamp
 			}
 		}
@@ -245,3 +252,4 @@ material Standup/RustySteel
 		}
 	}
 }
+
